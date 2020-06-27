@@ -6,13 +6,14 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <img
-      src="./images/TaoQtrino.png"
-      alt="Tao Qtrino"
-      style={{
-        width: "100%",
-      }}
-    />
+    <iframe
+      width="764"
+      height="573"
+      src="https://www.youtube.com/embed/xfDpDCsULn0"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
   </Layout>
 )
 
